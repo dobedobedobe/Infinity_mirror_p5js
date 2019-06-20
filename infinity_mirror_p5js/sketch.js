@@ -1,10 +1,6 @@
 let img;
 let video;
 
-function preload() {
-    img = loadImage('img.png')
-}
-
 function setup() {
     createCanvas(800, 600);
     video = createCapture(VIDEO);
