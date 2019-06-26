@@ -20,6 +20,8 @@ function draw() {
         //rotate(x/10*PI / 3.0)
         image(video, x, y, i * 4, i * 3)
 =======
+    for (let i = 360; i > 40; i -= 30) {
+        image(video, width/2, height/2, i * 4, i * 3)
 >>>>>>> b26a6cfa49ef3984e5e4053f9d686f286d017382
     }
 }
